@@ -1,0 +1,27 @@
+//Tipo de datos 
+
+Enteros 
+
+byte=-128 hasta 127
+short=-32768 hasta 32767
+int = -2147483 hasta 2147483647
+long= es muy grande 
+
+Decimales 
+
+float 
+double
+
+otros 
+
+char  (un solo caracter)
+boolean (true|false)
+
+tipo Objeto
+
+	String (cadenas de texto)
+
+/////variable 
+
+Tipo:  nombre 
+int num_uno = 20 
