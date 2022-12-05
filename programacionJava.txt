@@ -25,3 +25,13 @@ tipo Objeto
 
 Tipo:  nombre 
 int num_uno = 20 
+
+
+/////Operadores Aritméticos en programacion
+
++ mas
+- menos
+* multiplicacion 
+/ division
+^ potencia
+() prioridades en operaciones 
