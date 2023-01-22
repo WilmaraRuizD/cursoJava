@@ -35,3 +35,12 @@ int num_uno = 20
 / division
 ^ potencia
 () prioridades en operaciones 
+
+///Estructura de programacion : 
+
+condicion if-else ;
+
+Si se cumple la condicion ;
+///aplicaciones anidadas con if else 
+
+
