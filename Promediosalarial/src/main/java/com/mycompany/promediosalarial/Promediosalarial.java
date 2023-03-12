@@ -1,17 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
-
 package com.mycompany.promediosalarial;
 
-/**
- *
- * @author Andrea
- */
+import java.util.Scanner;
+
 public class Promediosalarial {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+     int salarioHora=4833,result;
+     int    horasLaboradas;
+     
+     Scanner entrada=new Scanner(System.in);
+     
+     System.out.print("Ingrese las horas laborables");
+     horasLaboradas=entrada.nextInt();
+     
+     result=salarioHora*horasLaboradas;
+     
+        System.out.println("su sueldo semanal es "+result);
     }
 }

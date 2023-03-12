@@ -1,0 +1,33 @@
+import javax.swing.*;
+
+public class JLabelForm extends JFrame {
+
+   private JLabal label1 ;
+   private Jlabel label2;
+
+  public JlabelForm(){
+   setLayout(null);
+   label1=new Jlabel("Interfaces grafica.");
+   label1.setBounds(10,20,300,30); //metodo set para as
+
+   add(label1);
+
+  label2=new Jlabel("Version 1.0 grafica.");
+   label2.setBounds(10,100,100,30);
+
+   add(label2);
+	
+	
+}
+
+  public static void main(String args[]){
+  
+   JlabelForm formulario1=new Formulario();
+
+   formulario1.setounds(0,0,300,200);
+   formulario1.setResizable(false);
+   formulario1.setVisible(true);
+   formulario1.setLocationRelativeTo(null);
+ }
+
+}
